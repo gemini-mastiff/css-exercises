@@ -24,3 +24,26 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.container{
+  display: flex;
+}
+
+header{
+  justify-content: center;
+}
+
+header .title{
+  margin-bottom: 32px;
+}
+
+.plant-list{
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant-card{
+  max-width: 200px;
+  flex-wrap: wrap;
+  text-align: center;
+}
