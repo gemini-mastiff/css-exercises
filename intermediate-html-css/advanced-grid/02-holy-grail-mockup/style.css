@@ -101,7 +101,8 @@ li{
   width: 100%;
   display: inline-grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 2fr 1fr 4fr 1fr;
+  /* grid-template-rows: 2fr 1fr 4fr 1fr; Unnecessary, better to leave it implicit if you don't know, apparently.*/
+  gap: 4px;
 }
 
 /* HEADER */
